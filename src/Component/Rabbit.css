@@ -1,0 +1,157 @@
+  .Container{
+    width: 100%;
+    height: 100vh;
+    background-color: #2A6218;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Big_circle{
+    width: 700px;
+    height: 700px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: pink;
+
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .Face{
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -15vh;
+    
+  
+  }
+
+  .Ear_left{
+    width: 100px;
+    height: 330px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: white;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .Ear_left_inner{
+    width: 60px;
+    height: 200px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+    margin-top: 2vh;
+    
+
+  }
+
+  .Ear_right{
+    width: 100px;
+    height: 330px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: white;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Ear_right_inner{
+    width: 60px;
+    height: 200px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 2vh;
+    background-color: pink;
+
+  }
+
+
+  .Ear{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .Eye{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30%;
+  }
+  
+  .Eye_left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .Eye_right{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .Nose{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    
+  }
+
+  .Nose_align{
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .Mouth{
+    width: 5px;
+    height: 20px;
+    background-color: black;
+    margin-top: 3vh;
+    
+  }
+
+  .Mouth_align{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+
+  }
+
+  .Lip_align{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+  }
+  
+  .Lip{
+    width: 200px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 0px 0px 100px 100px;
+  }
+
+  .Tongue{
+    width: 50px;
+    height: 50px;
+    background: pink;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 20px;
+
+  }
+
+
