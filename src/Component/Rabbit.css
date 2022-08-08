@@ -11,12 +11,13 @@
   .Big_circle{
     width: 700px;
     height: 700px;
-    border: 3px solid;
+    border: 2px solid;
     border-radius: 50%;
     border-color: pink;
 
     display: flex;
     justify-content: center;
+    align-items: center;
 
 
   }
@@ -37,7 +38,6 @@
     height: 330px;
     border-radius: 50px 50px 0px 0px;
     background-color: white;
-    margin-top: 10vh;
     display: flex;
     justify-content: center;
 
@@ -58,7 +58,6 @@
     height: 330px;
     border-radius: 50px 50px 0px 0px;
     background-color: white;
-    margin-top: 10vh;
     display: flex;
     justify-content: center;
 
